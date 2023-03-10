@@ -26,7 +26,7 @@ const Notification = () => {
   
   const to=location.state.Email;
   useState(async(e)=>{
-    const response=await fetch("http://localhost:4000/api/Notification", {
+    const response=await fetch("https://travelease.onrender.com/api/Notification", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -42,7 +42,7 @@ const Notification = () => {
         setData(data.user)}})
   const handleSubmit1 = async (param) => {   
     notify()
-         const response=await fetch("http://localhost:4000/api/CNotification", {
+         const response=await fetch("https://travelease.onrender.com/api/CNotification", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -53,7 +53,7 @@ const Notification = () => {
         }    
 const handleSubmit2 = async (param) => {   
             notify1()
-                 const response=await fetch("http://localhost:4000/api/CNotification", {
+                 const response=await fetch("https://travelease.onrender.com/api/CNotification", {
                     method: "POST",
                     headers: {
                       "Content-Type": "application/json",
@@ -64,7 +64,7 @@ const handleSubmit2 = async (param) => {
                  }
   const unotification=async(param)=>{
     
-    const response1=await fetch("http://localhost:4000/api/uNotification", {
+    const response1=await fetch("https://travelease.onrender.com/api/uNotification", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -74,7 +74,7 @@ const handleSubmit2 = async (param) => {
   } 
   const deletenotification=async(param)=>{
     
-    const response1=await fetch("http://localhost:4000/api/DNotification", {
+    const response1=await fetch("https://travelease.onrender.com/api/DNotification", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -13,7 +13,7 @@ const FindHost = () => {
   const city=location.state.City;
   const eemail=location.state.Email;
   useState(async(e)=>{
-    const response=await fetch("http://localhost:4000/api/HostSearch", {
+    const response=await fetch("https://travelease.onrender.com/api/HostSearch", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -33,7 +33,7 @@ const FindHost = () => {
   })
   const handleSubmit1 = async (param) => {   
     notify()
-         const response=await fetch("http://localhost:4000/api/CNotification", {
+         const response=await fetch("https://travelease.onrender.com/api/CNotification", {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

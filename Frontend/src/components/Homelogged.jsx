@@ -12,7 +12,7 @@ const HomeL=()=>{
 
     useState(async(e)=>{
         
-        const response=await fetch("http://localhost:4000/api/Profile", {
+        const response=await fetch("https://travelease.onrender.com/api/Profile", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

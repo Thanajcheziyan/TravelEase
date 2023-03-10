@@ -14,7 +14,7 @@ function BecomeHost() {
   const[btext,setbtext]=useState('Register')
   const handleSubmit=async(e)=>{
 e.preventDefault();
-const response=await fetch("http://localhost:4000/api/Host", {
+const response=await fetch("https://travelease.onrender.com/api/Host", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

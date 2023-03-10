@@ -14,7 +14,7 @@ const ProfileEdit = () => {
   const[country,setcountry]=useState('');
   const handleChange=async(e)=>{
     e.preventDefault()
-    const response=await fetch("http://localhost:4000/api/CProfile", {
+    const response=await fetch("https://travelease.onrender.com/api/CProfile", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
