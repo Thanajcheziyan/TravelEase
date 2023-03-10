@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.ex{  
+  position: absolute;
+  overflow: hidden;
+  height: 100vh;
+  
+  background: #00abff;
+  
+  font-family: 'Poppins', sans-serif;
+
+}
+.Econtainer{
+  margin-top: 150px;
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.Ecard{
+  height: 280px;
+  max-width: 350px;
+  margin: 0 20px;
+  background: white;
+  transition: 0.4s;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+.Ecard:hover{
+  height: 370px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+.Ecard .Eimg1{
+  background-image: url("C:\Users\Admin\Desktop\FULL STACK PROJECTS\TravelEase\Frontend\src\components\images\host1.jpg");
+  height: 200px;
+  width: 100%;
+}
+.Ecard .Eimg2{
+  background-image: url("C:\Users\Admin\Desktop\FULL STACK PROJECTS\TravelEase\Frontend\src\components\images\searchh.jpg");
+  height: 200px;
+  width: 100%;
+}
+.Ecard .Eimg3{
+  background-image: url("C:\Users\Admin\Desktop\FULL STACK PROJECTS\TravelEase\Frontend\src\components\images\Share.jpg");
+  height: 200px;
+  width: 100%;
+}
+.Ecard .Eimg4{
+  background-image: url("C:\Users\Admin\Desktop\FULL STACK PROJECTS\TravelEase\Frontend\src\components\images\Lift.jpg");
+  height: 200px;
+  width: 100%;
+}
+
+.Ecard .Etop-text{
+  padding: 5px;
+  margin-left:40px ;
+}
+.Ecard .Etop-text1{
+  padding: 5px;
+  margin-left:80px ;
+}
+.Ecard .Etop-text1 .name{
+  font-size: 25px;
+  font-weight: 600;
+  color: #202020;
+}
+.Ecard .Etop-text1 p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #00abff;
+  line-height: 20px;
+}
+.Ecard .Etop-text .name{
+  font-size: 25px;
+  font-weight: 600;
+  color: #202020;
+}
+.Ecard .Etop-text p{
+  font-size: 20px;
+  font-weight: 600;
+  color: #00abff;
+  line-height: 20px;
+}
+.Ecard .Ebottom-text{
+  padding: 0 20px 10px 20px;
+  margin-top: 5px;
+  background: white;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.1s;
+}
+.Ecard:hover .Ebottom-text{
+  opacity: 1;
+  visibility: visible;
+}
+.Ecard .Ebottom-text .Etext{
+  text-align: justify;
+}
+.Ecard .Ebottom-text .Ebtn4{
+  margin-left: 60px;
+  text-align: left;
+
+}
+.Ecard .Ebottom-text .Ebtn4 a{
+  text-decoration: none;
+  background: #00abff;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: inline-flex;
+  transition: 0.2s;
+}
+.Ecard .Ebottom-text .Ebtn4 a:hover{
+  transform: scale(0.9);
+}
+.Ecard .Ebottom-text .Ebtn1{
+  margin-left: 100px;
+  text-align: left;
+
+}
+.Ecard .Ebottom-text .Ebtn1 a{
+  text-decoration: none;
+  background: #00abff;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: inline-flex;
+  transition: 0.2s;
+}
+.Ecard .Ebottom-text .Ebtn1 a:hover{
+  transform: scale(0.9);
+}
+.Ecard .Ebottom-text .Ebtn3{
+  margin-left: 75px;
+  text-align: left;
+
+}
+.Ecard .Ebottom-text .Ebtn3 a{
+  text-decoration: none;
+  background: #00abff;
+  color: #f2f2f2;
+  padding: 5px 8px;
+  border-radius: 3px;
+  display: inline-flex;
+  transition: 0.2s;
+}
+.Ecard .Ebottom-text .Ebtn3 a:hover{
+  transform: scale(0.9);
+}
+@media screen and (max-width: 978px) {
+  .Econtainer{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .Ecard{
+    max-width: 700px;
+    margin: 20px 0;
+  }
+}

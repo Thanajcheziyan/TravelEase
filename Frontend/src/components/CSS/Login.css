@@ -1,0 +1,148 @@
+.Loginp {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-image: url("C:\Users\Admin\Desktop\FULL STACK PROJECTS\TravelEase\Frontend\src\components\images\login.jfif") ;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.Lcontainer {
+    margin-top: 100px;
+    margin-left: 350px;
+    height: 400px;
+    width: 650px;
+    box-shadow: 0px 30px 40px black;
+    display: flex;
+    border-radius: 10px;
+}
+
+.LImage {
+    flex: 50%;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("C:\Users\Admin\Desktop\FULL STACK PROJECTS\TravelEase\Frontend\src\components\images\login.jfif");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.LImage h1 {
+    margin-top: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: chartreuse;
+}
+
+.Lcontent {
+    flex: 50%;
+    background-color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Lcontent h1 {
+    padding: 40px;
+    padding-top: 30px;
+    font-family: 'Montserrat', cursive;
+    font-size: 40px;
+    color: #b57a50;
+}
+
+#txt {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    background-color: rgba(156, 77, 156, 0.3);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+    color: #fbf8f6;
+    
+}
+
+label {
+    font-weight: bold;
+    font-size: small;
+    color: #b57a50;
+}
+
+#txt:focus {
+    outline: none;
+}
+
+.fp {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+    transition: 0.3s;
+    color: #b57a50;
+}
+
+.fp:hover {
+    color: #b57a50;
+}
+
+.Lbtn {
+    padding: 10px 40px;
+    margin-top: 20px;
+    border: none;
+    background: linear-gradient(to right,#b57a50, #783604);
+    border-radius: 20px;
+    transition: 0.3s;
+    
+}
+
+.Lbtn button:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+.Lbtn  a {
+    text-decoration: none;
+    color: white;
+}
+ .Lcontent .Lform-group {
+    margin-left: 50px;
+}
+
+.Lcontent .Lform-group input::-webkit-inner-spin-button,::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.label{
+    color: #b57a50;
+}
+.Llogo{
+    width: 150px;
+    height: 50px;
+    background-image: url("C:\Users\Admin\Desktop\FULL STACK PROJECTS\TravelEase\Frontend\src\components\images\logo.png");
+    background-size: cover;
+    background-position: cover;
+    margin-left: 60px;
+    
+    
+}
+.Lform-group label{
+    margin-left:0px;
+}
+.Lcontent button{
+    margin-top: 20px;
+    width:105px;
+    height:45px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #b57a50;
+    color:white;
+}

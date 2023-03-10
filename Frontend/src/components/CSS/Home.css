@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.Tit{
+    width: 100%;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.7);
+    background-color:#fff;
+
+
+}
+.Tit .Log{
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    
+    
+}
+.Tit .Log .Logo{
+    background-image: url("C:\Users\Admin\Desktop\FULL STACK PROJECTS\TravelEase\Frontend\src\components\images\logo.png");
+    background-size: cover;
+    background-position: cover;
+    position: relative;
+    width: 100%;
+    
+}
+.Left ul{
+display: flex;
+margin-right: 20px;
+
+
+}
+.Left ul li{
+    justify-content: space-between;
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+    
+    color: #a9a9a9;
+}
+.Left ul li:hover{
+    background: #fff;
+    color: #00abff;
+    text-decoration: none;
+    cursor: pointer;
+} 
+.option{
+    width:80%;
+    position: relative;
+    background: black;
+    height: 100px;
+}
+.Prof{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.Prof .Profile{
+    background-image: url("C:\Users\Admin\Desktop\FULL STACK PROJECTS\TravelEase\Frontend\src\components\images\prof.png");
+    width: 28px;
+    height: 28px;
+    display: flex;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.Prof .Profile span{
+    margin-left: 5px;
+    color: #a9a9a9;
+}
+.container{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    
+}
+.img{
+    background: url("C:\Users\Admin\Desktop\FULL STACK PROJECTS\TravelEase\Frontend\src\components\images\Homebg.webp")no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: #f6f6f2;
+    filter: brightness(80%);
+    
+  
+  }
+.img::before{
+    content: '';
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .Left ul li Link{
+    text-decoration: none;
+    color: #a9a9a9;
+  }
+  
+  .center .title1{
+    margin-left: 150px;
+    color: #fff;
+    font-size: 55px;
+    font-weight: 600;
+  }
+  .center .sub_title{
+    color: #fff;
+    margin-left: 150px;
+    font-size: 52px;
+    font-weight: 600;
+  }
+  
+  
+  .center{
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    
+  }
+  .center a{
+    padding: 10px;
+  }
+  .center .Btns{
+    height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  
+  border: 2px solid white;
+  font-size: 20px;
+  font-weight: 500;
+  
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+margin-top: 100px;
+    position: absolute;
+    
+    justify-content: center;
+margin-left:0px;
+    position: absolute;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+  }
+    .About{
+      height: 300px;
+      width:100%;
+      position: relative;
+
+      margin-top:650px
+    }
+    .pp{
+      border-radius: 25px;
+    }
+    .prof p{
+      margin-top: 15px;
+      padding: 10px;
+    }
