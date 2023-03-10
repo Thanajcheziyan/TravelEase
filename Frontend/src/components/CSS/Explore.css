@@ -31,22 +31,22 @@
   box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
 }
 .Ecard .Eimg1{
-  /*background-image: url("../images/host1.jpg");*/
+  background-image: url("../images/host1.jpg");
   height: 200px;
   width: 100%;
 }
 .Ecard .Eimg2{
-  /*background-image: url("../images/host.jpg");*/
+  background-image: url("../images/host.jpg");
   height: 200px;
   width: 100%;
 }
 .Ecard .Eimg3{
-  /*background-image: url("../images/Share.jpg");*/
+  background-image: url("../images/Share.jpg");
   height: 200px;
   width: 100%;
 }
 .Ecard .Eimg4{
- /* background-image: url("../images/Lift.jpg");*/
+  background-image: url("../images/Lift.jpg");
   height: 200px;
   width: 100%;
 }

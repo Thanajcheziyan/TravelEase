@@ -3,6 +3,7 @@ import React from 'react';
 import './CSS/Home.css'
 import { useState } from 'react';
 import { Link,useNavigate } from 'react-router-dom';
+
 const Home=()=>{
     const navigate = useNavigate();
       return (
